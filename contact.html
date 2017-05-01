@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
+  </head>
+  <body>
+    <header>
+      <nav class="container" id="nav">
+        <div id="nav-name"><h1>Hovsep Agop</h1></div>
+        <ul id="navigation">
+          <li class="nav-item"><a href="index.html">About</a></li>
+          <li class="nav-item active-nav"><a href="portfolio.html">Portfolio</a></li>
+          <li class="nav-item active-nav">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="contact">
+        <h2>Contact</h2>
+        <hr class="big-hr">
+        <form class="contact-form" method="post" action="mailto:hka245@nyu.edu" id="the-form">
+          <fieldset>
+            <label for="name">Name: </label>
+            <input type="text" placeholder="John Smith" minlength="3" id="name" required>
+            <br />
+            <label for="email">Email: </label>
+            <br />
+            <input type="email" id="email" placeholder="example@gmail.com" required>
+            <br />
+            <label for="message">Message</label>
+            <br />
+            <textarea id="message" rows="12" cols="65" required></textarea>
+            <br />
+            <button type="submit" id="submit" class="the-button" onclick="toggle_visibility('#the-form');">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+      <div class="connect">
+        <h3>Connect with Me</h3>
+        <hr />
+        <a href="https://github.com/hovsepa" target="_blank"><img src="assets/images/github.svg" alt="github profile" class="social"></a>
+        <a href="https://www.linkedin.com/in/hovsepagop" target="_blank"><img src="assets/images/linkedin.svg" alt="LinkedIn profile" class="social"></a>
+        <a href="http://stackoverflow.com/users/7917648/hovsep-agop" target="_blank"><img src="assets/images/stack-overflow.svg" alt="stackoverflow profile" class="social"></a>
+      </div>
+    </div>
+    <footer>
+      <p id="footer-content">© 2017 Hovsep Agop</p>
+    </footer>
+  </body>
+</html>
