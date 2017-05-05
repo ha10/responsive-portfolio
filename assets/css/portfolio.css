@@ -1,11 +1,11 @@
 .portfolio {
   width: 650px;
-  height: 850px;
+  height: 100%;
   clear: both;
   background: white;
   padding: 30px;
   float: left;
-  margin-bottom: 30px;
+  margin-bottom: 7.5em;;
   border: solid 1px #dddddd;
   overflow: visible;
 }
@@ -29,4 +29,42 @@
   padding: 17px;
   font-size: 1.4em;
   color: white;
+}
+
+@media screen and (max-width: 960px) {
+  .portfolio {
+    width: 418px;
+  }
+  .project-01 {
+    width: 100%;
+    margin-bottom: 3em;
+  }
+  .project-names {
+    position: absolute;
+    top: 200px;
+  }
+  .img-01,
+  .img-02,
+  .img-03,
+  .img-04 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio {
+    width: 100%;
+    margin: 0;
+  }
+  .project-01,
+  .project-02,
+  .project-03,
+  .project-04 {
+    width: 45%;
+    position: relative;
+    float: left;
+    padding: 0;
+    margin: 0;
+  }
+  }
 }
