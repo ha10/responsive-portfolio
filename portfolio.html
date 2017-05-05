@@ -1,61 +1,74 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/portfolio.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
-  </head>
-  <body>
-    <header>
-      <nav class="nav-container">
-        <div id="nav-name"><h1>Hovsep Agop</h1></div>
-        <ul id="navigation">
-          <li class="nav-item"><a href="index.html">About</a></li>
-          <li class="nav-item active-nav">Portfolio</li>
-          <li class="nav-item"><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <header id="masthead">
     <div class="container">
-      <div class="portfolio">
-        <h2>Portfolio</h2>
-        <hr class="big-hr">
-        <!-- <p class="l-floaters"> -->
-        <div class="project-01">
-          <img src="assets/images/project-01.jpg" alt="Profile Image" class="img-01">
-          <p class="project-names">Hangman</p>
-        </div>
-        <div class="project-01">
-          <img src="assets/images/thesestreets.jpg" alt="Profile Image" class="img-01">
-          <p class="project-names">RPG Game</p>
-        </div>
-        <div class="project-01">
-          <img src="assets/images/nyc.jpg" alt="Profile Image" class="img-01">
-          <p class="project-names">Trivia Game</p>
-        </div>
-        <div class="project-01">
-          <img src="assets/images/lights.jpg" alt="Profile Image" class="img-01">
-          <p class="project-names">Rutgers Info Widget</p>
-        </div>
-        <div class="project-01">
-          <img src="assets/images/ideal.jpg" alt="Profile Image" class="img-01">
-          <p class="project-names">Rock Paper Park</p>
-        </div>
-      </div>
-      <div class="connect">
-        <h3>Connect with Me</h3>
-        <hr />
-        <a href="https://github.com/hovsepa" target="_blank"><img src="assets/images/github.svg" alt="github profile" class="social"></a>
-        <a href="https://www.linkedin.com/in/hovsepagop" target="_blank"><img src="assets/images/linkedin.svg" alt="LinkedIn profile" class="social"></a>
-        <a href="http://stackoverflow.com/users/7917648/hovsep-agop" target="_blank"><img src="assets/images/stack-overflow.svg" alt="stackoverflow profile" class="social"></a>
-      </div>
+      <a href="index.html" id="logo">Your Name</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
     </div>
-    <footer>
-      <p id="footer-content">© 2017 Hovsep Agop</p>
-    </footer>
-  </body>
+  </header>
+
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+
+        <h3>Hangman</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Your Name
+    </div>
+  </footer>
+</body>
+
 </html>
