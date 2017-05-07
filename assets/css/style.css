@@ -238,6 +238,12 @@ input[type=submit] {
   border: 0 none;
 }
 
+.active-page {
+  color: #4aaaa5;
+}
+
+/*Media Queries*/
+
 @media screen and (max-width: 980px) {
   nav {
     float: right;
