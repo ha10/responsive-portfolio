@@ -239,38 +239,125 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 980px) {
-  .container {
-    /*max-width: 700px;*/
+  nav {
+    float: right;
   }
-  /*.main-section {
-    width: 400px;
-
+  .container {
+    max-width: 700px;
+    width: 100%
+  }
+  .main-section {
+    width: 55%;
+    margin: 0 5px 35px 5px;
+    max-width: 55%;
   }
   .sidebar {
-    width: 400px;
-  }*/
+    width: 40%;
+    max-width: 700px;
+    float: right;
+    margin: 0 5px 20px 5px;
+  }
+  .auth-image {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  #main-container p {
+    font-size: .9em;
+  }
+  .work {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-  /*.main-section {
-    width: 49%;
+  nav {
+    float: right;
+    margin-right: .8em;
+  }
+  .container {
+    max-width: 700px;
+    width: 100%
+  }
+  .main-section {
+    width: 98%;
+    padding-top: 32px;
+    clear: both;
+    margin: 0 5px 20px 5px;
+    max-width: 700px;
   }
   .sidebar {
-    width: 49%
-  }*/
+    width: 98%;
+    max-width: 700px;
+    clear: both;
+    float: left;
+    margin: 0 5px 20px 5px;
+    /*margin: 0 auto;*/
+  }
+  .auth-image {
+    width: 55%;
+    margin-bottom: 1em;
+  }
+  #main-container p {
+    font-size: .8em;
+  }
+  .work {
+      width: 46.5%;
+    }
 }
 
 @media screen and (max-width: 640px) {
   header {
     position: static;
   }
+
+  #logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+  }
+
+  #masthead {
+    height: 150px;
+    overflow: hidden;
+  }
+
+  nav {
+    float: left;
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    margin: 100px auto 110px auto;
+  }
+
+  nav a {
+    padding: 0 1.2em;
+    width: 25%;
+  }
   .container {
-    width: 100%;
-  }
-  .main-section {
-    width: 100%;
-  }
-  .sidebar {
+    max-width: 600px;
     width: 100%
   }
+  .main-section {
+    width: 98%;
+    padding-top: 32px;
+    clear: both;
+    margin: 45px 5px 20px 5px;
+  }
+  .sidebar {
+    width: 98%;
+    max-width: 600px;
+    clear: both;
+    float: left;
+    margin: 0 5px 20px 5px;
+    /*margin: 0 auto;*/
+  }
+  .auth-image {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  .work {
+      width: 100%;
+    }
 }
